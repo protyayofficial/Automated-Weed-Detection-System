@@ -1,4 +1,47 @@
-# ACPS_Project
-<b>An Automated System for Weed Detection</b> is an integrated system that combines the capabilities of a diligent robot with the artistry of nature to detect weeds and invoke a precise acoustic alert mechanism. The proposed system harmonizes cutting-edge technology with ecological principles, serving as a sentinel for botanical purity in diverse landscapes. Through a sophisticated sensor array and refined visual acuity, the robot discerns the subtle differentiations that distinguish weeds from desirable flora, enabling targeted identification. Upon detecting weeds, a meticulously orchestrated process initiates an acoustic alert. This integration of robotics and ecology represents a significant step towards effective weed management and ecological preservation, bridging the gap between technology and environmental stewardship. Through rigorous experimentation and evaluation, the system showcases its ability to foster harmonious coexistence between nature and intelligent automation, inviting further exploration and application in the field of ecological landscaping and environmental conservation.
+# Agriculture Cyber Physical Systems Project
+## **Automated System for Weed Detection**
 
-For further details and explanations about the project kindly refer to the attached PDF file.
+### Overview
+The **Automated System for Weed Detection** is the perfect handshake between Artificial Intelligence (AI) and robotics. In this project, we utilized AI to perform early stage weed detection which enables the farmer to have better yield. The AI system is integrated on a Raspberry Pi which is fitted over a robot car chassis to perform the weed detection in the field.
+
+This project is a significant step toward integrating **robotics**, **AI**, and **environmental conservation**.
+
+### Key Features
+- **Weed Detection**: Uses AI enabled image recognition via a mounted camera to differentiate between weeds and beneficial plants.
+- **Acoustic Alert**: Once a weed is detected, a targeted sound alert is triggered.
+
+### Components & Technologies Used
+- **Robotic Platform**: A mobile robot equipped with a camera.
+- **Fully Autonomous**: Robot is programmed to be fully autonomous and stops when a weed is detected.
+- **Computer Vision**: Visual recognition powered by convolutional neural network models.
+- **Acoustic System**: Trigger-based sound mechanism for alert notifications.
+
+### Project Workflow
+1. **Data Collection**: The robot scans the environment with its camera.
+2. **Weed Identification**: Computer vision models analyze the captured images to detect weeds.
+3. **Trigger Alert**: An acoustic alert is triggered upon weed detection, notifying the user.
+
+### Visuals
+#### Robot Prototype
+<p align="center">
+  <img src="./RobotImage.png" alt="Weed Detection System Robot" />
+</p>
+
+
+#### Comprehensive System Overview
+<p align="center">
+  <img src="./WeedDetectionSystem.png" alt="Weed Detection System Poster" />
+</p>
+
+### Potential Applications
+- Precision agriculture
+- Yield Increment
+- Early weed detection
+
+### Future Development
+- Enhanced AI model training
+- Expanded sensor capabilities
+- Integration with autonomous agricultural systems
+
+### Acknowledgments
+Created as part of the Agriculture Cyber Physical Systems course project, under the guidance of Dr. Neeraj Goel and Dr. Mukesh Saini, at the Indian Institute of Technology Ropar.
